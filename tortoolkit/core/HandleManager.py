@@ -815,7 +815,7 @@ async def about_me(message):
         f"<b>Version</b>: <code>{__version__}</code>\n"
         f"<b>Telethon Version</b>: {telever}\n"
         f"<b>Pyrogram Version</b>: {pyrover}\n"
-        "<b>Owner</b>:@ghost_freak_official\n\n"
+        "<b></b>:\n\n"
         "<u>Currents Configs:-</u>\n\n"
         f"<b>Bot Uptime:-</b> {diff}\n"
         "<b>Torrent Download Engine:-</b> <code>qBittorrent [4.3.0 fix active]</code> \n"
@@ -839,7 +839,7 @@ async def about_me(message):
         "10.Overall download and upload progress.\n"
         "11.Pixeldrain DL support.\n"
         "12.Alert on when the bot boots up.\n"
-        "<b>13.AP Clean Zone</b>\n"
+        "<b></b>\n"
     )
 
     await message.reply(msg, parse_mode="html")
